@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Remote_Compliance>
+  <Versions>
+    <Version>
+      <Value>1.0</Value>
+      <Changes>
+        <Change>Initial Version</Change>
+      </Changes>
+      <ReleaseDate>2017-March-15</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>1.1</Value>
+      <Changes>
+        <Change>Fixed issue where report does not generate when the application is run on an SCCM site server</Change>
+        <Change>Fixed issue where a failed file hash check causes does not create the user message box</Change>
+      </Changes>
+      <ReleaseDate>2017-March-15</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>1.2</Value>
+      <Changes>
+        <Change>Fixed issue where the "Update Available" button did not display when new version available</Change>
+      </Changes>
+      <ReleaseDate>2017-March-15</ReleaseDate>
+    </Version>
+  </Versions>
+</Remote_Compliance>
