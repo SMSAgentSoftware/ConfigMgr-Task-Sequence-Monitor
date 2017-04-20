@@ -1,27 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Remote_Compliance>
+<ConfigMgr_Task_Sequence_Monitor>
   <Versions>
     <Version>
       <Value>1.0</Value>
       <Changes>
         <Change>Initial Version</Change>
       </Changes>
-      <ReleaseDate>2017-March-15</ReleaseDate>
+      <ReleaseDate>2015-01-01</ReleaseDate>
     </Version>
     <Version>
       <Value>1.1</Value>
       <Changes>
-        <Change>Fixed issue where report does not generate when the application is run on an SCCM site server</Change>
-        <Change>Fixed issue where a failed file hash check causes does not create the user message box</Change>
+        <Change>Added capability to link data from MDT with data from ConfigMgr</Change>
       </Changes>
-      <ReleaseDate>2017-March-15</ReleaseDate>
+      <ReleaseDate>2015-01-01</ReleaseDate>
     </Version>
     <Version>
       <Value>1.2</Value>
       <Changes>
-        <Change>Fixed issue where the "Update Available" button did not display when new version available</Change>
+        <Change>Added capability to generate an HTML deployment report</Change>
+        <Change>Fixed memory leak</Change>
+        <Change>Improved integration of MDT and ConfigMgr data</Change>
+        <Change>Moved settings into a seperate window</Change>
       </Changes>
-      <ReleaseDate>2017-March-15</ReleaseDate>
+      <ReleaseDate>2015-November-17</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>1.2.1</Value>
+      <Changes>
+        <Change>Fixed code bug that caused the app to open and immediately close on some machines</Change>
+      </Changes>
+      <ReleaseDate>2015-November-19</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>1.2.2</Value>
+      <Changes>
+        <Change>Fixed the issue where if only one task sequence is active in the environment, it will display as an array of string characters instead of an array of items</Change>
+      </Changes>
+      <ReleaseDate>2015-November-20</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>1.3.0</Value>
+      <Changes>
+        <Change>Added the capability to change the displayed date/time from the MDT/ConfigMgr default (UTC) to your local system timezone</Change>
+      </Changes>
+      <ReleaseDate>2015-November-23</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>1.3.1</Value>
+      <Changes>
+        <Change>Fixed an issue where the HTML report returns no results when the dateformat of the default system language of SQL server is not using "mdy" format.  Search dates are now passed to SQL server in ISO8601 standard format for compatibility with all SQL dateformats</Change>
+      </Changes>
+      <ReleaseDate>2016-January-15</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>1.4</Value>
+      <Changes>
+        <Change>Fixed the issue where duplicate records might be returned when the computer being deployed already exists in the ConfigMgr database (rebuild scenario)</Change>
+      </Changes>
+      <ReleaseDate>2016-February-10</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>1.5</Value>
+      <Changes>
+        <Change>Restyled the UI with a Modern Metro style</Change>
+      </Changes>
+      <ReleaseDate>2016-October-13</ReleaseDate>
+    </Version>
+    <Version>
+      <Value>2.0</Value>
+      <Changes>
+        <Change>tbc...</Change>
+      </Changes>
+      <ReleaseDate>2016-May-01</ReleaseDate>
     </Version>
   </Versions>
-</Remote_Compliance>
+</ConfigMgr_Task_Sequence_Monitor>
